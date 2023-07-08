@@ -20,54 +20,54 @@
 
 ### Challenges
 
-1. `.length`
+1. `.length` < <B>*DONE*</B> >
    * Create an array called `cars` which consists of 4 different types of cars as String type. The first car type should be Ford.
    * Console.log the length of the array.
    * Use `node main.js` to run the program.
-1. `.concat()`
+1. `.concat()` < <B>*DONE*</B> >
    * Create another array called `moreCars` with 4 more different types of cars. The last car type should be Honda.
    * Use the `concat` method to combine the `cars` and `moreCars` arrays into another array called `totalCars`.
    * Console.log the new array.
    * Run the program.
-1. `.indexOf()` and `.lastIndexOf()`
+1. `.indexOf()` and `.lastIndexOf()` < <B>*DONE*</B> >
    * Use the `indexOf` method to console.log the index of `Honda` in `totalCars`.
    * Use the `lastIndexOf` method to console.log the index of `Ford` in `totalCars`.
    * Run the program.
-1. `.join()`
+1. `.join()` < <B>*DONE*</B> >
    * Use the `join` method to convert the array `totalCars` into a string called `stringOfCars`.
    * Console.log `stringOfCars`.
    * Run the program.
-1. `.split()`
+1. `.split()` < <B>*DONE*</B> >
    * Use the `split` method to convert `stringOfCars` into an array called `carsFromString`.
    * Console.log the array you just created.
    * Run the program.
     > BONUS: Go back and pass a comma (`','`) in as an argument to `.split()` to separate the cars into individual items in the array. This is called a *separator* and it can be any character you wish to separate strings by.
-1. `.reverse()`
+1. `.reverse()` < <B>*DONE*</B> >
    * Use the `reverse` method to create an array `carsInReverse` which is the array `totalCars` in reverse.
    * Console.log `carsInReverse`.
    * Run the program.
-1. `.sort()`
+1. `.sort()` < <B>*DONE*</B> >
    * Use the `sort` method to put the array `carsInReverse` into alphabetical order.
    * Based on the types of cars you used, predict which item in the array should be at index 0.
    * Use the following code to confirm or reject your prediction: `console.log(carsInReverse.indexOf('yourPrediction'));`
-1. `.slice()`
+1. `.slice()`  < <B>*DONE*</B> >
    * Create a `pets` array by copy/pasting the following: `const pets = ['dog', 'cat', 'fish', 'rabbit', 'snake', 'lizard', 'bird']`
    * Use the `slice` method to create a `reptiles` array with `snake` and `lizard` from the `pets` array.
    * Console.log the `reptiles` array and run the program.
    * Now console.log the `pets` array and run the program. Why do you think `snake` and `lizard` are still in the original array?
-1. `.splice()`
+1. `.splice()` < <B>*DONE*</B> >
    * Create a new array called `removedReptiles`, using the `splice` method to remove `snake` and `lizard` from the `pets` array.
    * Console.log `removedReptiles` and `pets` and run the program.
    * Go back and add the string `'hamster'` in as a third parameter to your `splice` method, then run the program again and notice how the `pets` array has changed. Do you see how that works?
-1. `.pop()`
+1. `.pop()` < <B>*DONE*</B> >
    * Use the `pop` method to remove the last item from the `pets` array, saving it to a variable called `removedPet`.
    * Console.log `removedPet` and `pets` and run the program.
-1. `.push()`
+1. `.push()` < <B>*DONE*</B> >
    * Use the `push` method to add `removedPet` back to the end of the `pets` array.
    * Console.log `pets` and run the program.
-1. `.shift()`
+1. `.shift()` < <B>*DONE*</B> >
    * Use the `shift` method to remove and console.log the first item in the `pets` array.
-1. `.unshift()`
+1. `.unshift()` < <B>*DONE*</B> >
    * Use the `unshift` method to add the string `'turtle'` as the first item in the `pets` array.
    * Console.log the `pets` array and run the program. If all went according to plan, you should see `['turtle', 'cat', 'fish', 'rabbit', 'hamster', 'bird']`.
 1. `.forEach()`
@@ -77,7 +77,7 @@
       * Build a function called `addTwo` that can take in num, index, and arr as parameters—`(num, index, arr)`—and returns `num + 2` at each `index` of the `arr`.
       * Use `.forEach()` on the `numbers` array, passing in your freshly built function `addTwo` as an argument, in order to add 2 to each number in the array.
    * Console.log `numbers` and run the program.
-
+<!-- 
 ### Hints
 
 1. Use [repl.it](https://www.repl.it) to write the solution code first. (It's a faster environment vs using the `node main.js` command over and over again.)
@@ -168,4 +168,4 @@ Simply run `npm run lint`
 #### Running the Server
 
 1. Run `npm start`
-1. To break out of the server, press `ctrl` + `c`
+1. To break out of the server, press `ctrl` + `c` -->
